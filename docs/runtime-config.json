@@ -1,0 +1,24 @@
+{
+  "runtime": "rust",
+  "kata_version": "3.30.0",
+  "kata_hardcoded_kernel_params": [
+    "reboot=k",
+    "panic=1",
+    "systemd.unit=kata-containers.target",
+    "systemd.mask=systemd-networkd.service",
+    "systemd.mask=systemd-networkd.socket",
+    "root=/dev/vda1",
+    "rootflags=data=ordered,errors=remount-ro",
+    "ro",
+    "rootfstype=ext4",
+    "selinux=1"
+  ],
+  "user_generated": {
+    "vcpu": 1,
+    "cpu_model": "EPYC-Milan",
+    "cpu_family": 25,
+    "cpu_model_number": 1,
+    "cpu_stepping": 1,
+    "kbs_ip": "0.0.0.0:8080"
+  }
+}

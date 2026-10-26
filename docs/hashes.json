@@ -1,0 +1,23 @@
+{
+  "kata_version": "3.30.0",
+  "kernel_hash": "b7e2c1f4a9d8306e5c1a2b3d4e5f6071829384756afbecd0918273645fedcba",
+  "initrd_hash": "3f9a1c7e0b4d5261738495a0b1c2d3e4f5061728394a5b6c7d8e9f0a1b2c3d4",
+  "ovmf": {
+    "ovmf_hash": [
+      97, 72, 195, 4, 247, 209, 10, 147, 143, 226, 32, 160, 40, 83, 16, 119,
+      14, 12, 170, 175, 42, 195, 140, 48, 209, 37, 172, 217, 129, 226, 53, 241,
+      212, 5, 179, 50, 138, 9, 233, 65, 113, 121, 100, 45, 108, 138, 199, 18
+    ],
+    "metadata_items": [
+      { "gpa": 8388608, "size": 36864, "section_type": "SnpSecMemory" },
+      { "gpa": 8429568, "size": 12288, "section_type": "SnpSecMemory" },
+      { "gpa": 8441856, "size": 4096, "section_type": "SnpSecrets" },
+      { "gpa": 8445952, "size": 4096, "section_type": "Cpuid" },
+      { "gpa": 8450048, "size": 4096, "section_type": "SvsmCaa" },
+      { "gpa": 8458240, "size": 61440, "section_type": "SnpSecMemory" },
+      { "gpa": 8454144, "size": 4096, "section_type": "SnpKernelHashes" }
+    ],
+    "sev_es_reset_eip": 8433668,
+    "sev_hashes_table_gpa": 8457216
+  }
+}
